@@ -1,0 +1,7 @@
+#!/bin/bash
+# Endpoint URLs for load testing
+# Fill in after deploying with the URLs printed by each deploy script
+export LAMBDA_ZIP_URL="https://x5hkbcdny7q4u2tntccddpovyy0lpxrj.lambda-url.us-east-1.on.aws/"
+export LAMBDA_CONTAINER_URL="https://nppeh543fw7i6ngele3fjs5ph40hbtee.lambda-url.us-east-1.on.aws/"
+export FARGATE_URL="http://lsc-knn-alb-558428692.us-east-1.elb.amazonaws.com"
+export EC2_URL="http://18.212.97.49:8080"
